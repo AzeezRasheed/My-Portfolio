@@ -1,0 +1,12 @@
+.client__avatar{
+    border: 0.4rem solid var(--color-primary-variant);
+}
+
+.testimonial{
+    background: #3c3c9e;
+    user-select: none;
+    
+}
+
+
+

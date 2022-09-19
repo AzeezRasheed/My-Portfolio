@@ -1,0 +1,30 @@
+.contact__option{
+    border: 1px solid transparent;
+    transition: var(--transition);
+    
+}
+
+
+
+
+.contact__option:hover{
+    border-color:var(--color-primary-variant) ;
+    background: #4a0d9b;
+    transition: 1s ease-in-out;
+}
+
+.content__option{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+input, textarea{
+    
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    background: transparent;
+    
+}
