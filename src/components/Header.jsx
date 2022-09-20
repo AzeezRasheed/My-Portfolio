@@ -5,7 +5,7 @@ import HeaderSocials from './HeaderSocials'
 // import '../header.css'
 function Header() {
   return (
-  <header className=' pt-20 overflow-hidden   '>
+  <header className=' pt-20 overflow-hidden   ' id='home'>
       <div className="  h-full relative flex flex-col   items-center ">
           
           <div className='  text-center  '>

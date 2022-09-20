@@ -13,7 +13,7 @@ function Portfolio() {
 
       <h2></h2>
 
-      <div className="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-[2.5rem] m-auto">
+      <div className="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-[2.5rem] m-auto max-w-screen-lg">
         <article className="portfolio__items bg-[#3c3c9e] p-[1.3rem]">
           <div>
             <img src={Me} className='portfolio__item__image' alt="" />

@@ -31,7 +31,10 @@ function Contact() {
         Contact Me
       </h2>
 
-      <div className="contact__container grid grid-col-1 gap-8 md:grid-cols-2 lg:grid-cols-2 p-4">
+      <div className="">
+    <div className=" max-w-screen-lg  m-auto ">
+ 
+        <div className="contact__container grid grid-col-1 gap-8 md:grid-cols-2 lg:grid-cols-2  p-4    ">
         <div className=" flex flex-col gap-3  ">
           <article className="contact__option bg-[#3c3c9e]  rounded-[1.2rem] text-center p-6 ">
             <MdOutlineEmail className="content__option m-auto mb-2 " />
@@ -73,7 +76,7 @@ function Contact() {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-[1.2rem] ">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-[1.2rem]   ">
           <input
             type="text"
             name="name"
@@ -96,6 +99,9 @@ className="dark:text-white "
             </button>{" "}
           </div>
         </form>
+        </div>
+      </div>
+
       </div>
     </section>
   );
