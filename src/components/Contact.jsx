@@ -32,7 +32,7 @@ function Contact() {
       </h2>
 
       <div className="">
-    <div className=" max-w-screen-lg  m-auto ">
+    <div className=" max-w-screen-xl  m-auto ">
  
         <div className="contact__container grid grid-col-1 gap-8 md:grid-cols-2 lg:grid-cols-2  p-4    ">
         <div className=" flex flex-col gap-3  ">

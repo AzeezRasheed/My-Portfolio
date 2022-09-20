@@ -12,7 +12,7 @@ function Services() {
       <h2 className="text-center text-cyan-500 dark:text-cyan-400 text-2xl pb-3">
       Services
       </h2>
-        <div className='container services__container grid grid-col-1 gap-[1rem] lg:gap-[5rem] md:grid-cols-3 lg:grid-cols-3  m-auto p-6 max-w-screen-lg'>
+        <div className='container services__container grid grid-col-1 gap-[1rem] lg:gap-[5rem] md:grid-cols-3 lg:grid-cols-3  m-auto p-6 max-w-screen-xl'>
             <article className="services  bg-[#3c3c9e] rounded-br-[30px] rounded-bl-[30px] h-96  ">
                 <div className="service__head bg-[#4db5ff] p-[2rem] rounded-br-[30px] rounded-bl-[30px]">
                     <h3 className='text-center mb-2rem text-black'>UI/UX Design</h3>
