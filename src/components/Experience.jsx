@@ -11,7 +11,7 @@ function Experience() {
       <h2 className="text-center text-cyan-500 dark:text-cyan-400 text-2xl pb-3">
       My Experience
       </h2>
-       <div className='container experience__container grid grid-col-1 gap-8 md:grid-cols-2 lg:grid-cols-2 p-4 m-auto '>
+       <div className='container experience__container grid grid-col-1 gap-8 md:grid-cols-2 lg:grid-cols-2 p-4 m-auto max-w-screen-lg'>
            <div className="experience p-4">
                <h3>FrontEnd Development</h3>
                <div className="experience__content cards grid grid-cols-2  gap-[1.5rem]  ">
