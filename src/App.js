@@ -13,8 +13,8 @@ import "./index.css";
 function App() {
   return (
     <>
-    
-      <Header />
+  
+    <Header />
       <Nav />
       <About />
       <Experience />
@@ -23,6 +23,8 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+ 
+    
     </>
   );
 }

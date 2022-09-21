@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useEffect,useRef} from 'react'
 import Me from "../../src/images/rahie2.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -14,7 +14,7 @@ import "../index.css";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" >
       <h5 className="text-center text-slate-900 dark:text-white ">
         Get to know
       </h5>
