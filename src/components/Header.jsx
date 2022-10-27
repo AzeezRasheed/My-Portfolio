@@ -11,14 +11,14 @@ function Header() {
           <div className='  text-center  '>
           <h5 className=' text-slate-500 dark:text-slate-400'>Hello I'm</h5>
           <h1 className='text-slate-900 dark:text-slate-50'>Abdulazeez Abdulrasheed</h1>
-          <h5 className='text-cyan-500 dark:text-cyan-400 '> Frontend Developer</h5>
+          <h5 className='text-cyan-500 dark:text-cyan-400 '> Fullstack Developer</h5>
              </div>
           <CTA/>
           <HeaderSocials/>
           <div  className='mee'>
               <img src={Me} alt="me" className='me lg:w-[20rem] md:w-[17rem] w-[15rem] h-[20rem] lg:h-[25rem] md:h-[25rem] overflow-hidden mt-[4rem] rounded-tl-full rounded-tr-full ' />
           </div>
-          <a href="#contact" className='scroll__down text-cyan-500 dark:text-cyan-400   ;'>Scroll Down</a>
+          <a href="#contact" className='scroll__down text-cyan-500 dark:text-cyan-400 '>Scroll Down</a>
       </div>
   </header>
   )

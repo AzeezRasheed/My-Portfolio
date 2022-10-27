@@ -38,7 +38,7 @@ function About() {
                 <article className='about__card bg-[#3c3c9e] border-transparent rounded-xl p-[1.5rem] text-center '>
                     <FaAward  className='about__icon m-auto'/>
                     <h5 className="text-white">Experience</h5>
-                    <small className="text-slate-300">1 Year Working</small>
+                    <small className="text-slate-300">2 Years Working</small>
                 </article>
 
                 <article className='about__card bg-[#3c3c9e] border-transparent rounded-xl p-[1.5rem] text-center'>

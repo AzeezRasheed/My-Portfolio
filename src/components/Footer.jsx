@@ -23,7 +23,7 @@ function Footer() {
       <a href="https://www.linkedin.com/in/abdulazeez-abdulrasheed-06064018b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFPQ2QEILT8etdofPuShB8Q%3D%3D" target='_blank'><BsLinkedin className='footer__logo'/></a>
     </div>
     <div className='footer__copyright mb-[4rem] '>
-      <small>All rights reserved © Abdulazeez Abdulrasheed 2022</small>
+      <small> &copy; {new Date().getFullYear()} Abdulazeez Abdulrasheed All rights reserved</small>
     </div>
    </footer>
   )
