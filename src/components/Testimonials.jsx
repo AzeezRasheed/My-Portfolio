@@ -14,25 +14,13 @@ const data = [
     avatar: Avatar1,
     name: "Azeez Lukman",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Assumenda dicta quam similique nostrum reiciendis. Distinctio,assumenda dolorem. Facilis minima beatae impedit debitis at.Natus, sint? Aut iure recusandae ut dicta?",
+      "Abdulrasheed was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish",
   },
   {
     avatar: Avatar2,
     name: "Fawas Kareem",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Assumenda dicta quam similique nostrum reiciendis. Distinctio,assumenda dolorem. Facilis minima beatae impedit debitis at.Natus, sint? Aut iure recusandae ut dicta?",
-  },
-  {
-    avatar: Avatar3,
-    name: "Ridwan Kareem",
-    review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Assumenda dicta quam similique nostrum reiciendis. Distinctio,assumenda dolorem. Facilis minima beatae impedit debitis at.Natus, sint? Aut iure recusandae ut dicta?",
-  },
-  {
-    avatar: Avatar4,
-    name: "Hakeem Kazeem",
-    review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Assumenda dicta quam similique nostrum reiciendis. Distinctio,assumenda dolorem. Facilis minima beatae impedit debitis at.Natus, sint? Aut iure recusandae ut dicta?",
+      "Abdulrasheed's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.",
   },
 ];
 
@@ -53,23 +41,25 @@ function Testimonials() {
         modules={[Pagination]}
         sliderPerView={1}
         spaceBetween={40}
-      
-      className="myswiper  w-[18rem] lg:w-[30rem]  md:w-[30rem] m-auto">
-        {data.map(({avatar,name,review},index) => (
-      <SwiperSlide key={index} className="testimonial text-center p-[2rem] rounded-[2rem]">
-      <div>
-        <img src={avatar} alt="" className="client__avatar rounded-full w-32 m-auto"/>
-      
-      </div>
-      <h5 className=" text-cyan-500 dark:text-cyan-400 ">
-         {name}
-        </h5>
-        <small className="client__review text-cyay-800 block text-cyan-100 w-[15rem] lg:w-[25rem] md:w-[25rem] text-center ">
-          {review}
-        </small>
-    </SwiperSlide>
-
-
+        className="myswiper  w-[18rem] lg:w-[30rem]  md:w-[30rem] m-auto"
+      >
+        {data.map(({ avatar, name, review }, index) => (
+          <SwiperSlide
+            key={index}
+            className="testimonial text-center p-[2rem] rounded-[2rem]"
+          >
+            <div>
+              <img
+                src={avatar}
+                alt=""
+                className="client__avatar rounded-full w-32 m-auto"
+              />
+            </div>
+            <h5 className=" text-cyan-500 dark:text-cyan-400 ">{name}</h5>
+            <small className="client__review text-cyay-800 block text-cyan-100 w-[15rem] lg:w-[25rem] md:w-[25rem] text-center ">
+              {review}
+            </small>
+          </SwiperSlide>
         ))}
       </Swiper>
     </section>
