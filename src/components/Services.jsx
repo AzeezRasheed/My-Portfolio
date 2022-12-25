@@ -37,11 +37,6 @@ function Services() {
 
             <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
               <BiCheck className="service__list-icon w-7" />
-              <p className="">Understanding of information architecture.</p>
-            </li>
-
-            <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
-              <BiCheck className="service__list-icon w-7" />
               <p className="">
                 Contineously iterate on solutions to make the product
                 increasingly effective and delightful for users.
@@ -84,14 +79,9 @@ function Services() {
 
             <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
               <BiCheck className="service__list-icon w-7" />
-              <p>Writing documentation.</p>
-            </li>
-
-            <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
-              <BiCheck className="service__list-icon w-7" />
               <p>
-                Staying up-to-date on new technologies which could improve
-                technology and customer experience.
+                Writing documentation and staying up-to-date on new
+                technologies.
               </p>
             </li>
           </ul>
@@ -111,11 +101,6 @@ function Services() {
             <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
               <BiCheck className="service__list-icon w-7" />
               <p>Broad spectrum of content development services.</p>
-            </li>
-
-            <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
-              <BiCheck className="service__list-icon w-7" />
-              <p>Landing page optimization.</p>
             </li>
 
             <li className="flex gap-[1rem] mb-[0.8rem] mt-[20px]">
