@@ -1,6 +1,7 @@
 import React from "react";
 import PINVENTORY from "../assets/pinventory.PNG";
 import NetflixClone from "../assets/NetflixClone2.PNG";
+import LotteryLife from "../assets/lottery-life.PNG";
 import GroceryBud from "../assets/GroceryBud.PNG";
 import RoyalPath from "../assets/RoyalPath.PNG";
 import MetaBnb from "../assets/MetaBnb.PNG";
@@ -129,6 +130,29 @@ function Portfolio() {
             </a>
             <a
               href="https://zuri-frontend-stage3-task.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__items bg-[#3c3c9e] p-[1.3rem] ">
+          <div>
+            <img src={LotteryLife} className="portfolio__item__image" alt="" />
+          </div>
+          <h3 className="portfolio__h3">{"{"}LotteryLife</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/AzeezRasheed/lottery-life"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://lottery-life.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >

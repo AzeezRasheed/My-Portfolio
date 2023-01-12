@@ -38,7 +38,7 @@ function About() {
                 <article className='about__card bg-[#3c3c9e] border-transparent rounded-xl p-[1.5rem] text-center '>
                     <FaAward  className='about__icon m-auto'/>
                     <h5 className="text-white">Experience</h5>
-                    <small className="text-slate-300">2 Years Working</small>
+                    <small className="text-slate-300">3 Years Working</small>
                 </article>
 
                 <article className='about__card bg-[#3c3c9e] border-transparent rounded-xl p-[1.5rem] text-center'>
@@ -54,7 +54,7 @@ function About() {
                 </article>
 
                     </div>
-                    <p className=" text-black dark:text-slate-300 pt-4 pb-3 font-serif">I'm that farmboy who codes, I'm a big lover of pets, exotic ones expecially. When i’m not at my system building websites you can find me on the farm breeding rabbits.</p>
+                    <p className=" text-black dark:text-slate-300 pt-4 pb-3 font-serif">I'm a Mechatronics engineering student, I'm also that farmboy who loves to codes, I'm a big lover of pets, exotic ones expecially. When i’m not at my system building websites you can find me on the farm breeding rabbits.</p>
                 <a href="#contact" className="btn btn-primary"> Let's Talk</a>
                 </div>
       </div>
